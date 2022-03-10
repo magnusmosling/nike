@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+/* hits is for the header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  height: 100px;
+}
+
+.header-style {
+  font-family: "Hubballi", cursive;
+  font-size: 24px;
+  margin: 50px;
+}
+
+.logo {
+  height: 30px;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+}
+.nav-links li a {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+}
+.nav-links li a:hover {
+  color: rgba(48, 39, 39, 0.685);
+}
+
+
+
+/* container-shoe */
+
+
+.container-shoe{
+    margin-top: 50px;
+    display: flex;
+}
+
+.container-img{
+    width: calc(100% - 456px);
+    margin-left: 250px;
+}
+.img-size{
+    width: 700px;
+
+}
+
+p{
+    font-family: 'League Spartan', sans-serif;
+}
+
+h2{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container-text{
+width: 456px ;
+margin-right: 250px;
+}
+
+.container-sizs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+}
+
+.box{
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.buy-btn{
+    margin-top: 10px;
+    height: 50px;
+    width: 470px;
+    border-radius: 10px;
+}
