@@ -83,6 +83,9 @@ h2 {
   background-color: rgb(255, 255, 255);
 }
 
+
+
+
 /* headline shoes */
 
 .choose {
@@ -90,8 +93,11 @@ h2 {
   text-align: center;
   font-family: 'League Spartan', sans-serif;
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
+
+
 
 /* container-shoes */
 
@@ -101,8 +107,6 @@ h2 {
 }
 
 .shoes-img {
-  max-width: 345px;
-  margin-right: 20px;
   margin-bottom: 50px;
   text-align: center;
   background-color: white;
@@ -162,7 +166,7 @@ margin-left: 200px ;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 100px;
+  margin: 200px;
 }
 
 
