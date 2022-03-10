@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
+*{
+  margin: 0;
+  border: 0;
+}
 
 .header {
   display: flex;
@@ -14,6 +18,10 @@
 .header-style {
   margin: 50px;
 }
+
+
+
+
 
 
 h1 {
@@ -31,6 +39,7 @@ h1 {
   width: 400px;
   height: 40px;
   margin: 5px;
+  border: 1px solid black;
 }
 
 button {
