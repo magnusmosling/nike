@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -48,6 +51,25 @@
   border-radius: 5px;
 }
 
+
+
+
+/* choose-woman */
+
+.choose-woman{
+text-align: center;
+margin: 50px;
+font-family: 'League Spartan', sans-serif;
+font-size: 36px;
+}
+
+
+
+
+
+
+
+
 /* container-shoes-roll */
 
 
@@ -57,18 +79,28 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-gap: 5px;
-margin-left: 150px;
-margin-right: 150px;
-
+gap: 2px;
+margin-left: 100px;
+margin-right: 100px;
 }
 
 
+
 .container-shoes-roll-img {
-  border: 1px solid black;
   margin-bottom: 50px;
-  width: 300px;
-  text-align: center;
-  background-color: white;
+  width: 380px;
+  background-color: rgb(255, 255, 255);
   text-align: left;
+}
+
+
+h4{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
+  margin: 5px;
+}
+
+P{
+  font-family: 'League Spartan', sans-serif;
+  margin: 5px;
 }
