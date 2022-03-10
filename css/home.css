@@ -180,11 +180,10 @@ margin-left: 200px ;
 /* container-shoes-roll */
 
 .container-shoes-roll{
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 200px;
+  margin: 100px;
 }
 
 
