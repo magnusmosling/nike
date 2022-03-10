@@ -124,7 +124,7 @@ h2 {
  }
 
 
- /* VACATION MODE ACTIVATED */
+ /* VACATION MODE ACTIVATED NR1 */
 
  .vacation-container{
   display: flex;
@@ -136,9 +136,6 @@ h2 {
 
 .vacation{
 margin-left: 200px ;
-}
-.vacation2{
-  margin-right: 200px;
 }
 
 .vacation-img{
@@ -156,6 +153,27 @@ margin-left: 200px ;
   color: rgb(165, 102, 19);
 
 }
+
+
+ /* VACATION MODE ACTIVATED NR2 */
+
+ .vacation-container-2{
+   background-color: #1B1B1B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .vacation-2{
+  margin-right: 200px;
+}
+
+.vacation-colur{
+  color: rgb(223, 223, 223);
+}
+
+
+
 
 
 
