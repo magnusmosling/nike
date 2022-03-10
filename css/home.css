@@ -181,16 +181,14 @@ margin-left: 200px ;
 /* container-shoes-roll */
 
 .container-shoes-roll{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7px;
 }
 
 
 .container-shoes-roll-img {
-  max-width: 345px;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-bottom: 50px;
   text-align: center;
   background-color: white;
