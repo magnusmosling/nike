@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -66,6 +67,7 @@
 
 h1 {
   font-size: 60px;
+  font-family: "Bebas Neue", cursive;
 }
 h2 {
   font-size: 30px;
@@ -86,7 +88,7 @@ h2 {
 .choose {
   margin-top: 100px;
   text-align: center;
-  font-family: "Oswald", sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-size: 48px;
   margin-bottom: 20px;
 }
@@ -95,54 +97,115 @@ h2 {
 
 .container-shoes {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.shoes {
+.shoes-img {
   max-width: 345px;
   margin-right: 20px;
   margin-bottom: 50px;
   text-align: center;
+  background-color: white;
+  text-align: left;
+}
+ h4{
+  font-family: 'League Spartan', sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+ }
+
+ p{
+  font-family: 'League Spartan', sans-serif;
+  margin-top: 5px;
+ }
+
+
+ /* VACATION MODE ACTIVATED */
+
+ .vacation-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
 }
 
-.shoes :hover {
-  border: 1px solid #000;
+
+.vacation{
+margin-left: 200px ;
+}
+.vacation2{
+  margin-right: 200px;
 }
 
-.wrapper-1 button {
-  background-color: rgb(255, 251, 0);
-  border-color: #000;
-  border-radius: 10px;
+.vacation-img{
+  max-width: 900px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.vacation-btn{
+  width: 150px;
   height: 50px;
-  width: 150;
+  margin-top: 10px;
 }
+.vacation-btn :hover{
+  color: rgb(165, 102, 19);
+
+}
+
+
+
+/* container-shoes-roll */
+
+.container-shoes-roll{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+
+.container-shoes-roll-img {
+  max-width: 345px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: white;
+  text-align: left;
+}
+
+
+
 
 /* footer */
 
-footer {
-  height: 300px;
-  background-color: rgb(54, 54, 54);
-}
-
 .footer-container {
+  height: 300px;
+  background-color: rgb(32, 32, 32);
   display: flex;
-  justify-content: center;
-  margin: 100px;
+  justify-content: center
+
 }
 
 .footer-nav {
-  margin: 100px;
+margin-top: 60px ;
+margin-right: 50px;
 }
 h3 {
-  font-family: "Bebas Neue", cursive;
+  font-family: 'League Spartan', sans-serif;
   font-size: 24px;
-  color: white;
+  color: rgb(250, 250, 250);
 }
 
-.footer-nav li {
-  color: white;
+.footer-nav li{
+  color: rgb(206, 206, 206);
   text-decoration: none;
   list-style: none;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
 }
+
+
+
