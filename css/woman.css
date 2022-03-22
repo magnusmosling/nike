@@ -1,91 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
-
-* {
-  margin: 0;
-  border: 0;
-}
-
-/* hits is for the header */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  background-color: white;
-  align-items: center;
-  height: 100px;
-}
-
-.header-style {
-  font-family: "Hubballi", cursive;
-  font-size: 24px;
-  margin: 50px;
-}
-
-.logo {
-  height: 30px;
-  margin-right: 169px;
-}
-
-.nav-links {
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-}
-
-.nav-links li a {
-  color: black;
-  margin: 10px;
-  text-decoration: none;
-}
-
-.nav-links li a:hover {
-  color: rgba(48, 39, 39, 0.685);
-}
-
-.box {
-  border: 2px solid black;
-  border-radius: 5px;
-}
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap");
 
 /* choose-woman */
 
-.choose-woman{
-text-align: center;
-margin: 50px;
-font-family: 'League Spartan', sans-serif;
-font-size: 36px;
+.choose-woman {
+  text-align: center;
+  margin: 50px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 36px;
 }
-
-
-
-
-
-
-
 
 /* container-shoes-roll */
 
-
-
-
-.container-shoes-roll{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 2px;
-margin-left: 100px;
-margin-right: 100px;
+.container-shoes-roll {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
-
-
 
 .container-shoes-roll-img {
   margin-bottom: 50px;
@@ -94,14 +30,13 @@ margin-right: 100px;
   text-align: left;
 }
 
-
-h4{
-  font-family: 'League Spartan', sans-serif;
+h4 {
+  font-family: "League Spartan", sans-serif;
   font-size: 18px;
   margin: 5px;
 }
 
-P{
-  font-family: 'League Spartan', sans-serif;
+P {
+  font-family: "League Spartan", sans-serif;
   margin: 5px;
 }
