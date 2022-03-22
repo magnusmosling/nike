@@ -40,3 +40,10 @@ P {
   font-family: "League Spartan", sans-serif;
   margin: 5px;
 }
+
+.container-shoes {
+}
+
+.container-shoes :hover {
+  border: 1px solid rgb(0, 0, 0);
+}
