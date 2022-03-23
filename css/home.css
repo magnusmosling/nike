@@ -31,7 +31,8 @@ h1 {
   font-family: "Bebas Neue", cursive;
 }
 h2 {
-  font-size: 30px;
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
 }
 .button-banner-text {
   background-color: rgb(238, 128, 25);
@@ -88,12 +89,13 @@ p {
 }
 
 .vacation {
-  margin-left: 200px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .vacation-img {
-  max-width: 900px;
-  height: 600px;
+  width: 55%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -116,7 +118,8 @@ p {
 }
 
 .vacation-2 {
-  margin-right: 200px;
+  text-align: right;
+  margin-right: 50px;
 }
 
 .vacation-colur {
@@ -137,4 +140,33 @@ p {
   text-align: center;
   background-color: white;
   text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .vacation-img {
+    width: 100%;
+  }
+  .vacation-container {
+    flex-direction: column;
+  }
+
+  .vacation-container-2 {
+    flex-direction: column;
+  }
+
+  .vacation {
+    text-align: center;
+  }
+  .vacation-2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 460px) {
 }

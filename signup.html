@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/signup.css">
     <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/signup.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -35,17 +36,48 @@
 
 
 
-    <div class="container">
+    <main>
+        <section class="section-container">
+            <div>
 
-    <h1>signup</h1>
+                <div class="text-container">
+                    <h1>SIGN UP</h1>
+                </div>
 
-    <input class="box" type="email" style="font-size: large;">
-    <input class="box" type="password" style="font-size: large;">
-    <input class="box" type="name" style="font-size: large;">
-    <input class="box" type="age"  style="font-size: large;">
-    <button>sumit</button>
+                <form id="form" action="/signup.html" method="GET">
 
-    </div>
+                    <div class="container-input">
+                        <label for="name">Email</label>
+                        <input class="input-box" id="email" type="email" required >
+                    </div>
+
+                    <div class="container-input">
+                        <label for="name">Name</label>
+                        <input class="input-box" id="name" type="name" required >
+                    </div>
+
+                    <div class="container-input">
+                        <label for="name">Password</label>
+                        <input class="input-box" id="password" type="password" required >
+                    </div>
+
+                    <button id="logginn-btn" type="logginn" >SIGNUP</button>
+
+                </form>
+                <div id="error"></div>
+
+                <div>
+                    <p>or</p>
+                </div>
+
+                <div class="or-container">
+                    <button class="or-box">GOOGLE</button>
+                    <button class="or-box">FACEBOOK</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
 
     <footer>
