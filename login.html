@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/logginn.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -34,17 +35,44 @@
 
     </header>
 
+    <main>
+        <section class="section-container">
+            <div>
 
-    <div class="container">
-        
-    <h1>login</h1>
+                <div class="text-container">
+                    <h1>LOGG INN</h1>
+                    <p>Forget Passord</p>
+                </div>
 
-    <input class="box" type="email" style="font-size: large;">
-    <input class="box" type="password" style="font-size: large;">
+                <div id="error"> </div>
+                <form id="form" action="/login.html" method="get">
 
-    <button>sumit</button>
+                    <div class="container-input">
+                        <label for="name">Email</label>
+                        <input class="input-box" id="email" type="email" required>
+                    </div>
 
-    </div>
+                    <div class="container-input">
+                        <label for="name">Password</label>
+                        <input class="input-box" id="password" type="password" required>
+                    </div>
+                    <button id="logginn-btn" type="logginn" >LOGGINN</button>
+
+                </form>
+
+                <div>
+                    <p>Keep me logged in.</p>
+                    <p>or</p>
+                </div>
+
+                <div class="or-container">
+                    <button class="or-box">GOOGLE</button>
+                    <button class="or-box">FACEBOOK</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
 
     <footer>
