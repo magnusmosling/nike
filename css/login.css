@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 
 .section-container {
+  width: 100%;
   display: flex;
   justify-content: center;
   font-family: "Hubballi", cursive;
@@ -16,8 +17,8 @@
   margin-top: 25px;
 }
 .input-box {
+  width: 100%;
   border: 1px solid black;
-  width: 400px;
   height: 40px;
 }
 
