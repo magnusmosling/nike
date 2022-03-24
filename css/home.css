@@ -141,32 +141,3 @@ p {
   background-color: white;
   text-align: left;
 }
-
-@media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 768px) {
-  .vacation-img {
-    width: 100%;
-  }
-  .vacation-container {
-    flex-direction: column;
-  }
-
-  .vacation-container-2 {
-    flex-direction: column;
-  }
-
-  .vacation {
-    text-align: center;
-  }
-  .vacation-2 {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 460px) {
-}
