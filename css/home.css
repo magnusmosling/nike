@@ -45,40 +45,6 @@ h2 {
   background-color: rgb(255, 255, 255);
 }
 
-/* headline shoes */
-
-.choose {
-  margin-top: 100px;
-  text-align: center;
-  font-family: "League Spartan", sans-serif;
-  font-size: 48px;
-  margin-bottom: 30px;
-}
-
-/* container-shoes */
-
-.container-shoes {
-  display: flex;
-  justify-content: center;
-}
-
-.shoes-img {
-  margin-bottom: 50px;
-  text-align: center;
-  background-color: white;
-  text-align: left;
-}
-h4 {
-  font-family: "League Spartan", sans-serif;
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-p {
-  font-family: "League Spartan", sans-serif;
-  margin-top: 5px;
-}
-
 /* VACATION MODE ACTIVATED NR1 */
 
 .vacation-container {
@@ -131,13 +97,47 @@ p {
 .container-shoes-roll {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 7px;
+  gap: 2px;
+  margin: 100px;
 }
 
 .container-shoes-roll-img {
-  margin-right: 10px;
   margin-bottom: 50px;
   text-align: center;
   background-color: white;
   text-align: left;
+}
+
+/* headline shoes */
+
+.choose {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+/* container-shoes */
+
+.container-shoes {
+  display: flex;
+  justify-content: center;
+}
+
+.shoes-img {
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: white;
+  text-align: left;
+}
+h4 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: "League Spartan", sans-serif;
+  margin-top: 5px;
 }
