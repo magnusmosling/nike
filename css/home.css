@@ -69,6 +69,8 @@ h2 {
   width: 150px;
   height: 50px;
   margin-top: 10px;
+  color: white;
+  background-color: #1b1b1b;
 }
 .vacation-btn :hover {
   color: rgb(165, 102, 19);
