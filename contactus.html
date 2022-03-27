@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contactus.css">
+    <script defer src="./js/hamburger-menu.js"></script>
+    <script defer src="./js/contact.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="nevbar">
+
+            <a href="./index.html"><img class="logo" src="./image/standard_Skjermbilde_2020-12-30_kl._17.44.40-removebg-preview.png" alt=""></a>
+
+            
+
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="./index.html" class="nav-link">NEWS</a></li>
+                <li class="nav-item"> <a href="./sport.html" class="nav-link">SPORT</a></li>
+                <li class="nav-item"> <a href="./man.html" class="nav-link">MEN</a></li>
+                <li class="nav-item"> <a href="./woman.html" class="nav-link">WOMAN</a></li>
+                <li class="nav-item"> <a href="./contactus.html" class="nav-link">CONTACT US</a></li>
+
+            </ul>
+
+            <ul class="nav-menu menu-fix">
+                <li class="nav-item"> <a href="./login.html" class="nav-link">LOG IN</a></li>
+                <li class="nav-item"> <a href="./signup.html" class="nav-link">SIGN UP</a></li>
+            </ul>
+
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <div>
+        
+        <form onsubmit="event.preventDefault(); validateForm()">
+            <h1>CONTACT US</h1>
+
+            <label for="name">Your Name:</label>
+            <input id="name" placeholder="Name">
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input id="email" placeholder="Email">
+            <small class="error"></small>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Message" rows="6"></textarea>
+            <small class="error"></small>
+
+            <div class="btn">
+                <input class="submit" value="Send Message">
+            <p id="success"></p>
+            </div>
+
+        </div>
+
+        </form>
+
+    </main>
+
+
+
+    <footer>
+
+        <div class="footer-container">
+
+            <nav class="footer-nav">
+                <ul>
+                    <h3>PRODUKTER</h3>
+                    <br>
+                    <li>Sko</li>
+                    <li>Klær</li>
+                    <li>Tilbehør</li>
+                    <li>Nye varer</li>
+                    <li>Relese date</li>
+                    <li>Outlet</li>
+                </ul>
+            </nav>
+
+            <nav class="footer-nav">
+                <ul>
+                    <h3>SPORT</h3>
+                    <br>
+                    <li>Fotball</li>
+                    <li>Baskeball</li>
+                    <li>Fitness og Trening</li>
+                    <li>Outdoor</li>
+                    <li>Rugby</li>
+                    <li>Loping</li>
+                    <li>Tennis</li>
+                </ul>
+            </nav>
+
+            <nav class="footer-nav">
+                <ul>
+                    <h3>BRUKERSTØTTE</h3>
+                    <br>
+                    <li>Hjelp og Kundeservive</li>
+                    <li>Levering</li>
+                    <li>Retur og refunsjon</li>
+                    <li>Størrelsestabell</li>
+                    <li>Finn butikk</li>
+                    <li>Gift Cards</li>
+                    <li>Europeisk tvisteløsning</li>
+                    <li>Trykk</li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </footer>
+</body>
+</html>
