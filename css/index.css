@@ -51,9 +51,11 @@ h2 {
 .container-shoes {
   display: flex;
   justify-content: center;
+  margin: 0px 10%;
 }
 
 .shoes-img {
+  margin: 2px;
   margin-bottom: 50px;
   text-align: center;
   background-color: white;
@@ -150,10 +152,31 @@ p {
 /* container-shoes */
 
 
-@media screen and (max-width: 460px) {
-  .container-shoes {
+@media screen and (max-width: 768px){
+  .vacation-container{
     flex-direction: column;
-    margin: 20px;
+  }
+  .vacation-container-2{
+    flex-direction: column;
+  }
+
+  .vacation-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .vacation {
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 460px) {
+  .container-shoes{
+    flex-direction: column;
+
   }
 
 }
