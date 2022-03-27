@@ -21,6 +21,7 @@ form{
     background-color: white;
     margin: 10vh auto 10vh;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 h1{
@@ -44,7 +45,7 @@ input, textarea{
 }
 
 
-input:focus, textarea:focus{
+input[type="text"]:focus, textarea:focus{
     border-bottom: 2px solid red;
 }
 
@@ -55,7 +56,7 @@ input:focus, textarea:focus{
     text-align: center;
 }
 
-.submit{
+input[type="submit"]{
     text-align: center;
     margin-top: 30px;
     width: 90%;
@@ -65,17 +66,24 @@ input:focus, textarea:focus{
     font-size: 16px;
     cursor: pointer;
     border-radius: 2px;
+    border-bottom: none;
+}
+input[type="submit"]:hover{
+    background-color: orange;
+
 }
 
 
 .error{
     color: red;
 }
-
-.error-border{
-    border-bottom: red;
+.success{
+    color: #28A745;
 }
 
-#succes{
-    color: #28A745;
+.error-border{
+    border-bottom: 1px solid red;
+}
+.success-border{
+    border-bottom: 1px #28A745
 }

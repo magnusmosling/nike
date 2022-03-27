@@ -44,16 +44,15 @@
     </header>
 
     <div>
-        
         <form onsubmit="event.preventDefault(); validateForm()">
             <h1>CONTACT US</h1>
 
-            <label for="name">Your Name:</label>
-            <input id="name" placeholder="Name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Name">
             <small class="error"></small>
 
             <label for="email">Email:</label>
-            <input id="email" placeholder="Email">
+            <input type="text" id="email" placeholder="Email">
             <small class="error"></small>
 
             <label for="message">Message:</label>
@@ -61,13 +60,11 @@
             <small class="error"></small>
 
             <div class="btn">
-                <input class="submit" value="Send Message">
+                <input type="submit" value="Send Message">
             <p id="success"></p>
             </div>
-
-        </div>
-
         </form>
+    </div>
 
     </main>
 
@@ -119,6 +116,8 @@
                 </ul>
             </nav>
         </div>
+
+
 
 
     </footer>
